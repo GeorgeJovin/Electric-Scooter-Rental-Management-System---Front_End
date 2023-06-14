@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Contact-EGO</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/contacts.css">
+    <link rel="shortcut icon" type="x-icon" href="images/ico.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="topic">Address</div>
+          <div class="text-one">CIET</div>
+          <div class="text-two">Narasipuram,Coimbatore</div>
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"></i>
+          <div class="topic">Phone</div>
+          <div class="text-one">+0098 9893 5647</div>
+          <div class="text-two">+0096 3434 5678</div>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div>
+          <div class="text-one">Electricscooter@gmail.com</div>
+          <div class="text-two">techn.scooter@gmail.com</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text">Send us a message</div>
+        <p>If you have any types of queries related to our service, you can send us message from here. It's our pleasure to help you.</p>
+      
+        <div class="input-box">
+          <input type="text" placeholder="Enter your name" id = "name">
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Enter your email" id = "email">
+        </div>
+        <div class="input-box message-box">
+          <textarea placeholder="Enter Your Message" id = "msg"></textarea>  </textarea>
+        </div>
+        <div class="button">
+            <input type="button" id="send" onclick="message()" value="Send now">
+        </div>
+        
+        <div class="message">
+            <div class="success" id="success">Your Message Successfully Sent!</div>
+            <div class="danger" id="danger">Feilds Can't be Empty!</div>
+    </div>
+    </div>
+  </div>
+  <script src="javascript/contact.js"></script>
+</body>
+</html>
